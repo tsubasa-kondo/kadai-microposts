@@ -16,7 +16,7 @@
                         {!! Form::close() !!}
                     @endif
                 
-                    @include('favorites.favorite_button')
+                    @include('favorites.favorite_button', ['microposts' => 'microposts'])
                     
                 </div>
             </div>
